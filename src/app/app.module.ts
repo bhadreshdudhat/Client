@@ -8,10 +8,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SharedModule } from './_modules/shared.module';
 import { NgxSpinnerModule } from 'ngx-spinner';
+import { HasRoleDirective } from './_directives/has-role.directive';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HasRoleDirective,
   ],
   imports: [
     BrowserModule,
