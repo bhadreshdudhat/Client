@@ -9,12 +9,14 @@ import { AppComponent } from './app.component';
 import { SharedModule } from './_modules/shared.module';
 import { NgxSpinnerModule } from 'ngx-spinner';
 import { HasRoleDirective } from './_directives/has-role.directive';
+import { NavComponent } from './nav/nav.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HasRoleDirective,
-  ],
+    NavComponent,
+   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
