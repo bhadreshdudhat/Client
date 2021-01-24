@@ -14,11 +14,6 @@ import { DateInputComponent } from './_forms/date-input/date-input.component';
 import { TextInputComponent } from './_forms/text-input/text-input.component';
 import { RegisterComponent } from './register/register.component';
 import { HomeComponent } from './home/home.component';
-import { AdminComponent } from './admin/admin.component';
-import { MessagesComponent } from './messages/messages.component';
-import { ListsComponent } from './lists/lists.component';
-import { MembersComponent } from './members/members.component';
-import { ErrorsComponent } from './errors/errors.component';
 
 @NgModule({
   declarations: [
@@ -29,11 +24,6 @@ import { ErrorsComponent } from './errors/errors.component';
     DateInputComponent,
     RegisterComponent,
     HomeComponent,
-    AdminComponent,
-    MessagesComponent,
-    ListsComponent,
-    MembersComponent,
-    ErrorsComponent,
    ],
   imports: [
     BrowserModule,
