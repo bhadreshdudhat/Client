@@ -12,6 +12,8 @@ import { HasRoleDirective } from './_directives/has-role.directive';
 import { NavComponent } from './nav/nav.component';
 import { DateInputComponent } from './_forms/date-input/date-input.component';
 import { TextInputComponent } from './_forms/text-input/text-input.component';
+import { RegisterComponent } from './register/register.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +22,8 @@ import { TextInputComponent } from './_forms/text-input/text-input.component';
     NavComponent,
     TextInputComponent,
     DateInputComponent,
+    RegisterComponent,
+    HomeComponent,
    ],
   imports: [
     BrowserModule,
