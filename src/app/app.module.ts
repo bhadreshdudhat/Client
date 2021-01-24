@@ -10,12 +10,16 @@ import { SharedModule } from './_modules/shared.module';
 import { NgxSpinnerModule } from 'ngx-spinner';
 import { HasRoleDirective } from './_directives/has-role.directive';
 import { NavComponent } from './nav/nav.component';
+import { DateInputComponent } from './_forms/date-input/date-input.component';
+import { TextInputComponent } from './_forms/text-input/text-input.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HasRoleDirective,
     NavComponent,
+    TextInputComponent,
+    DateInputComponent,
    ],
   imports: [
     BrowserModule,
