@@ -14,6 +14,8 @@ import { DateInputComponent } from './_forms/date-input/date-input.component';
 import { TextInputComponent } from './_forms/text-input/text-input.component';
 import { RegisterComponent } from './register/register.component';
 import { HomeComponent } from './home/home.component';
+import { ListsComponent } from './lists/lists.component';
+import { MessagesComponent } from './messages/messages.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +26,8 @@ import { HomeComponent } from './home/home.component';
     DateInputComponent,
     RegisterComponent,
     HomeComponent,
+    ListsComponent,
+    MessagesComponent,
    ],
   imports: [
     BrowserModule,
