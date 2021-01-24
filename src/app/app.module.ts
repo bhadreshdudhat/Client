@@ -19,6 +19,9 @@ import { MessagesComponent } from './messages/messages.component';
 import { AdminPanelComponent } from './admin/admin-panel/admin-panel.component';
 import { PhotoManagementComponent } from './admin/photo-management/photo-management.component';
 import { UserManagementComponent } from './admin/user-management/user-management.component';
+import { TestErrorsComponent } from './errors/test-errors/test-errors.component';
+import { NotFoundComponent } from './errors/not-found/not-found.component';
+import { ServerErrorComponent } from './errors/server-error/server-error.component';
 
 @NgModule({
   declarations: [
@@ -34,6 +37,9 @@ import { UserManagementComponent } from './admin/user-management/user-management
     AdminPanelComponent,
     PhotoManagementComponent,
     UserManagementComponent,
+    TestErrorsComponent,
+    NotFoundComponent,
+    ServerErrorComponent,
    ],
   imports: [
     BrowserModule,
