@@ -17,7 +17,7 @@ import { ModalModule } from 'ngx-bootstrap/modal';
     CommonModule,
     BsDropdownModule.forRoot(),
     ToastrModule.forRoot({
-      positionClass: 'toast-bottom-right'
+      positionClass: 'toast-custom'
     }),
     TabsModule.forRoot(),
     NgxGalleryModule,

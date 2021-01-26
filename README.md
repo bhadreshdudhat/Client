@@ -1,3 +1,6 @@
+# Angular 11 Http Interceptors
+https://efficientcoder.net/angular-11-http-interceptors/#:~:text=Interceptors%20are%20a%20unique%20type,the%20value%20of%20the%20request.
+
 # Client
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.0.

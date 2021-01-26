@@ -1,5 +1,6 @@
 import { Component, EventEmitter, Input, OnInit } from '@angular/core';
 import { BsModalRef } from 'ngx-bootstrap/modal';
+import { ToastrService } from 'ngx-toastr';
 import { User } from 'src/app/_models/user';
 
 @Component({
@@ -12,13 +13,17 @@ export class RolesModalComponent implements OnInit {
   user: User;
   roles: any[];
 
-  constructor(public bsModalRef: BsModalRef) { }
+  constructor(public bsModalRef: BsModalRef, public toastr: ToastrService) { }
 
   ngOnInit(): void {
   }
 
   updateRoles() {
-    this.updateSelectedRoles.emit(this.roles);
+    if(this.roles.some(r  => r.checked == true)){
+      this.updateSelectedRoles.emit(this.roles);
+    }else{
+      this.toastr.error('User Must have atleast one role!')
+    }
     this.bsModalRef.hide();
   }
 
