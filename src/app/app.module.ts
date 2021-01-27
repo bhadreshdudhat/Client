@@ -32,6 +32,7 @@ import { JwtInterceptor } from './_interceptors/jwt.interceptor';
 import { ErrorInterceptor } from './_interceptors/error.interceptor';
 import { LoadingInterceptor } from './_interceptors/loading.interceptor';
 import { RolesModalComponent } from './modals/roles-modal/roles-modal.component';
+import { ConfirmLeaveComponent } from './modals/confirm-leave/confirm-leave.component';
 
 @NgModule({
   declarations: [
@@ -57,6 +58,7 @@ import { RolesModalComponent } from './modals/roles-modal/roles-modal.component'
     MemberMessagesComponent,
     PhotoEditorComponent,
     RolesModalComponent,
+    ConfirmLeaveComponent,
    ],
   imports: [
     BrowserModule,
