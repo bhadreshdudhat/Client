@@ -33,6 +33,7 @@ import { ErrorInterceptor } from './_interceptors/error.interceptor';
 import { LoadingInterceptor } from './_interceptors/loading.interceptor';
 import { RolesModalComponent } from './modals/roles-modal/roles-modal.component';
 import { ConfirmLeaveComponent } from './modals/confirm-leave/confirm-leave.component';
+import { ConfirmDialogComponent } from './modals/confirm-dialog/confirm-dialog.component';
 
 @NgModule({
   declarations: [
@@ -59,6 +60,7 @@ import { ConfirmLeaveComponent } from './modals/confirm-leave/confirm-leave.comp
     PhotoEditorComponent, // photo functionality
     RolesModalComponent,
     ConfirmLeaveComponent,
+    ConfirmDialogComponent,
    ],
   imports: [
     BrowserModule,
