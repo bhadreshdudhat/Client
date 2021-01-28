@@ -15,14 +15,14 @@ export class PreventUnsavedChangesGuard implements CanDeactivate<unknown> {
   canDeactivate(component: MemberEditComponent) {
     if (component.editForm.dirty) {
      // return confirm('Are you sure you want to continue? Any unsaved changes will be lost');
-     return this.confirmService.confirm();
-    //  const subject = new Subject<boolean>();
-    //  const modal = this.modalService.show(ConfirmLeaveComponent, {'class': 'modal-dialog-primary'});
-    //   modal.content.subject = subject;
+    // return this.confirmService.confirm();
+     const subject = new Subject<boolean>();
+     const modal = this.modalService.show(ConfirmLeaveComponent, {'class': 'modal-dialog-primary'});
+      modal.content.subject = subject;
 
-    //   return subject.asObservable();
-    // }
+      return subject.asObservable();
+    }
     return true;
   }
 
-}}
+}
