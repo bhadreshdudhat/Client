@@ -20,8 +20,8 @@ import { ModalModule } from 'ngx-bootstrap/modal';
       positionClass: 'toast-custom'
     }),
     TabsModule.forRoot(),
-    NgxGalleryModule,
-    FileUploadModule,
+    NgxGalleryModule,// photo functionality
+    FileUploadModule,// photo functionality
     BsDatepickerModule.forRoot(),
     PaginationModule.forRoot(),
     ButtonsModule.forRoot(),
@@ -32,8 +32,8 @@ import { ModalModule } from 'ngx-bootstrap/modal';
     BsDropdownModule,
     ToastrModule,
     TabsModule,
-    NgxGalleryModule,
-    FileUploadModule,
+    NgxGalleryModule,// photo functionality
+    FileUploadModule,// photo functionality
     BsDatepickerModule,
     PaginationModule,
     ButtonsModule,

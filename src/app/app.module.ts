@@ -56,7 +56,7 @@ import { ConfirmLeaveComponent } from './modals/confirm-leave/confirm-leave.comp
     MemberEditComponent,
     MemberListComponent,
     MemberMessagesComponent,
-    PhotoEditorComponent,
+    PhotoEditorComponent, // photo functionality
     RolesModalComponent,
     ConfirmLeaveComponent,
    ],

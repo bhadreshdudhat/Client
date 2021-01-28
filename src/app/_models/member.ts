@@ -1,3 +1,4 @@
+import { Photo } from './photo';
 export interface Member {
     id: number;
     username: string;
@@ -12,5 +13,6 @@ export interface Member {
     interests: string;
     city: string;
     country: string;
+    photos: Photo[];
   }
 
